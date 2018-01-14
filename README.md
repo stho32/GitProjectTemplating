@@ -9,7 +9,7 @@ That is a lot to do now.
 
 - [ ] Clone the repo
 - [ ] remove the .git stuff
-- [ ] init new .git stuff
+- [ ] init new .git stuff
 - [ ] add all files
 - [ ] initial commit
 - [ ] connect to remote repository
