@@ -20,10 +20,10 @@ That is a lot to do now.
 So why not do this in one step?
 
 ```bash
-./new-github-project.sh <username> <templateProject> <newProjectName>
+./hydrate-github-project-from.sh <username> <templateProject> <newProjectName>
 ```
 
 e.g.
 ```bash
-./new-github-project.sh stho32 ProjectTemplate-HTML New-Project
+./hydrate-github-project-from.sh stho32 ProjectTemplate-HTML New-Project
 ```

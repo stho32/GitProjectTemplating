@@ -3,15 +3,15 @@
 #
 # The other github project thus acts like a project template.
 # 
-# ./new-github-project.sh <username> <templateProject> <newProject>
+# ./hydrate-github-project-from.sh <username> <templateProject> <newProject>
 # e.g.
-# ./new-github-project.sh stho32 ProjectTemplate-HTML New-Awesome-Project
+# ./hydrate-github-project-from.sh stho32 ProjectTemplate-HTML New-Awesome-Project
 #
 
 if [[ $# -ne 3 ]]
 then
-    echo "Usage : ./new-github-project.sh <username> <templateProject> <newProjectName>"
-    echo " e.g. : ./new-github-project.sh stho32 ProjectTemplate-HTML New-Project"
+    echo "Usage : ./hydrate-github-project-from.sh <username> <templateProject> <newProjectName>"
+    echo " e.g. : ./hydrate-github-project-from.sh stho32 ProjectTemplate-HTML New-Project"
 fi 
 
 git clone --depth 1 https://github.com/$1/$2.git ../$3
