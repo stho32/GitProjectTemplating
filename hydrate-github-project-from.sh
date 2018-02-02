@@ -14,8 +14,8 @@ then
     echo " e.g. : ./hydrate-github-project-from.sh stho32 ProjectTemplate-HTML New-Project"
 fi 
 
-git clone --depth 1 https://github.com/$1/$2.git ../$3
-cd ../$3
+git clone --depth 1 https://github.com/$1/$2.git $3
+cd $3
 rm -rf .git/
 git init
 git remote add origin https://github.com/$1/$3.git
