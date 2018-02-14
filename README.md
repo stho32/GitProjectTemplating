@@ -7,13 +7,13 @@ That Repository contains your project template, that one, that you want to use r
 
 That is a lot to do now.
 
-- [ ] Clone the repo
-- [ ] remove the .git stuff
-- [ ] init new .git stuff
-- [ ] add all files
-- [ ] initial commit
-- [ ] connect to remote repository
-- [ ] push it all up
+- [x] Clone the repo
+- [x] remove the .git stuff
+- [x] init new .git stuff
+- [x] add all files
+- [x] initial commit
+- [x] connect to remote repository
+- [x] push it all up
 
 (Checked checkpoints are implemented.)
 
